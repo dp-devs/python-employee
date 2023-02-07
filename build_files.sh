@@ -1,5 +1,6 @@
 pip install -r requirements.txt
 pip install mysqlclient
+pip install --upgrade setuptools
 pip install django
 pip install djangorestframework
 pip install django-cors-headers
