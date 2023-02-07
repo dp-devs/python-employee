@@ -2,6 +2,7 @@
 pip install -r requirements.txt
 pip install --root-user-action=ignore requests
 pip install --upgrade pip
+pip install pymysql
 pip install django
 pip install djangorestframework
 pip install django-cors-headers
