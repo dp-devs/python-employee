@@ -1,7 +1,6 @@
 pip install -r requirements.txt
 pip install mysql-python
 pip install -U setuptools
-pip install pip==21.3.1
 pip install django
 pip install djangorestframework
 pip install django-cors-headers
