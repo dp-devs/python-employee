@@ -79,18 +79,34 @@ WSGI_APPLICATION = 'DigiprayasAPI.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'u624153904_digiprayas_app',
         'USER': 'u624153904_digiprayas_app',
-        'PASSWORD': 'Digiprayas_app@1234',
-        'HOST': 'sql876.main-hosting.eu',
+        'PASSWORD': 'Digiprayas@1234',
+        'HOST': '82.180.142.51',
+        'PORT': 3306,
         'OPTIONS': {
             'sql_mode': 'traditional',
             }
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'u624153904_digiprayas_app',
+#         'USER': 'u624153904_digiprayas_app',
+#         'PASSWORD': 'Digiprayas_app@1234',
+#         'HOST': 'sql876.main-hosting.eu',
+#         'OPTIONS': {
+#             'sql_mode': 'traditional',
+#             }
+#     }
+# }
 
 # DATABASES = {
 #     'default': {
