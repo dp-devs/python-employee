@@ -1,1 +1,1 @@
-web: gunicorn 'DigiprayasAPI.wsgi'
+web: gunicorn DigiprayasAPI.wsgi --log-file -
