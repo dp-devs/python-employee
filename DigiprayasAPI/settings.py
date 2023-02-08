@@ -87,7 +87,6 @@ DATABASES = {
         'PASSWORD': 'Digiprayas_app@1234',
         'HOST': 'sql876.main-hosting.eu',
         'OPTIONS': {
-            'init_command': 'SET default_storage_engine=INNODB',
             'sql_mode': 'traditional',
             }
     }
